@@ -1,4 +1,4 @@
-# ConcurrentModificationException
+ *ConcurrentModificationException*
 ConcurrentModificationException in List and HashMap iteration
 
 if we try to modifiy the size of list or hashmap while iterating over it, it will throw ConcurrentModificationException.
@@ -6,7 +6,7 @@ https://www.journaldev.com/378/java-util-concurrentmodificationexception
 
 Hence, always use ConcurrentHashMap instead of HashMap and CopyOnWriteArrayList instead of ArrayList classes.
 
-#Example:
+*Example*:
 	Map <String, Integer> map = new HashMap();
 		map.put("One", 1);
 		map.put("Two", 2);
