@@ -57,3 +57,5 @@ Example:
 		}
     
     Hence, we see that while concurrent modification is allowed in ConcurrentHahMap but it is not reflected in same iterator iteration.
+    
+    Difference between ConcurrentHashMap and synchronizedHashMap: https://crunchify.com/hashmap-vs-concurrenthashmap-vs-synchronizedmap-how-a-hashmap-can-be-synchronized-in-java/
